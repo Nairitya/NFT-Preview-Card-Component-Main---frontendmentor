@@ -57,6 +57,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.metrics-icon {
+  margin-right: 10px;
+}
 
 hr {
   width: 100%;
