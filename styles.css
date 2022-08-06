@@ -104,7 +104,7 @@ hr {
   font-weight: 400;
 }
 
-/* Active State CSS */
+/* Active State Effect CSS */
 
 .text-hover-effect:hover {
   color: hsl(178, 100%, 50%);
@@ -145,4 +145,10 @@ hr {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media (max-width: 375px) {
+  .main-card {
+    max-width: 320px;
+  }
 }
